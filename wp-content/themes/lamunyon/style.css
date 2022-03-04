@@ -1,0 +1,258 @@
+/*!
+Theme Name: lamunyon
+Theme URI: http://underscores.me/
+Author: Raju Tako
+Author URI: http://underscores.me/
+Description: This is theme for Lamunyon
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: lamunyon
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+lamunyon is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+.container-fluid {
+
+    max-width: 1320px;
+}
+.main-banner .container-fluid {
+    max-width: 1525px;
+}
+.clearfix {
+    clear: both;
+}
+
+.padding-50 {
+    padding: 0 50px;
+}
+
+.form-control {
+    width: 100% !important;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 12px;
+    color: #5e5e5e;
+    height: 40px;
+}
+
+label {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    margin: -2px 5px 0px 0px;
+    margin-top: 1px \9;
+    line-height: inherit;
+    vertical-align: middle;
+}
+
+input[type="radio"] {
+    margin: 2px 5px 0px 0px;
+    margin-top: 1px \9;
+    line-height: inherit;
+    vertical-align: middle;
+}
+
+
+/* ============= Reset css ================== */
+
+.header-top {
+    padding: 15px 0;
+    background-color: #ed1d24;
+}
+
+.quick-contact {
+    text-align: left;
+}
+
+.quick-contact ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.quick-contact ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: #fff;
+    padding: 0 20px 0 0;
+    font-size: 12px;
+}
+
+.quick-contact ul li i {
+    padding-right: 5px;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.social-links ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social-links ul li a {
+    padding: 0 0 0 10px;
+}
+
+.social-links ul li a i {
+    color: #fff;
+}
+
+.company-logo {
+    max-width: 248px;
+    float: left;
+    margin: 13px 0;
+}
+
+.main-menu {
+    float: right;
+    /* padding: 20px 0 0; */
+}
+
+.main-menu:not( .bs-menu) {
+    display: none;
+}
+
+.main-menu ul li a {
+    padding: 0 0 0 35px;
+    color: #000000;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.main-menu ul li.current-menu-item a {
+    color: #F7812B;
+}
+
+
+
+.main-menu ul li a span {
+    background-color: #ed1d24;
+    padding: 13px 20px;
+    color: #fff;
+}
+ul.right li a:hover {
+    background-color: #ed1d24;
+    color: #fff;
+}
+
+
+/*=================== close header part css =================== */
+
+.main-banner {
+    min-height: 85vh;
+    padding: 70px 0 15px;
+    background-size: cover;
+}
+
+.content-left-wrapp {
+    margin-top: 150px;
+}
+
+.content-left-wrapp h1,
+.content-left-wrapp p {
+    color: #fff;
+}
+
+.content-right-wrapp {
+    padding: 40px 25px 50px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.content-right-wrapp h2 {
+    margin-top: 0;
+    background: #ed1d24;
+    color: #fff;
+    padding: 0;
+    padding-left: 70px;
+    margin-left: -67px;
+    margin-bottom: 30px;
+    width: 105%;
+    line-height: 1.75em;
+    position: relative;
+}
+
+.content-right-wrapp h2::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-right: 31px solid #ed1d24d9;
+    border-bottom: 13px solid transparent;
+    left: 11px;
+    bottom: -13px;
+}
+
+.content-right-wrapp h2::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 26px solid transparent;
+    border-left: 27px solid #ed1d24;
+    border-bottom: 23px solid transparent;
+    right: -27px;
+    top: 0;
+}
+
+.form-inner-wrapp {
+    padding: 0px 40px 0px 0px;
+}
+
+.form-body-inner {
+    margin: 15px 0;
+}
+
+.quick-contact ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+ ul.menu > li.menu-item-has-children > a::after {
+    content: '\f107';
+    font-family: "FontAwesome"; 
+    font-weight: 900;
+    font-size: 13px;
+    padding-left: 5px;
+    height: 1em;
+}
+
+ul.sub-menu > li.menu-item-has-children > a::after {
+    content: '\f105';
+    font-family: "FontAwesome"; 
+    font-weight: 900;
+    font-size: 13px;
+    float:right;
+    height: 1em;
+}
+
+li.red a {
+    background: #FF0000 ;
+    color:#fff !important;
+    height: 5px;
+    padding-top: 18px !important;
+}
+li.red {
+    margin-top: 20px;
+    display: inline-block;
+}
